@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Execute JavaScript on Current Tab",
+    "version": "1.0",
+    "description": "Executes a JavaScript code on the current tab and shows a UI with status.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  

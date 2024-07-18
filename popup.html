@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Execute JavaScript</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      background-color: yellow;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+      border-radius: 7px;
+      background-color: rgb(61, 88, 7);
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      color: white;
+      transition: all .3s ease-in-out;
+    }
+    button:hover {
+        background-color: rgb(46, 68, 2);
+        color: gainsboro;
+    }
+    .header {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #status {
+      margin-block: 10px;
+      font-size: 12px;
+      text-align: center;
+      font-weight: 600;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h3 class="header">Execute JavaScript Code</h3>
+  <button id="execute">Execute Script</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
